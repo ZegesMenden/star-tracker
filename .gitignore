@@ -1,0 +1,93 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+*.d
+*.dep
+*.pch
+*.gch
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.dat
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+generated/
+build/
+Build/
+bin/
+obj/
+dist/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Make
+*.make
+Makefile.in
+
+# Autotools
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+configure
+configure~
+depcomp
+install-sh
+missing
+mkinstalldirs
+ltmain.sh
+libtool
+stamp-h1
+
+# Meson
+meson-private/
+meson-logs/
+meson-info/
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+*.lcov
+coverage/
+coverage.info
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS/editor temp
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
